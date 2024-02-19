@@ -1,11 +1,28 @@
 import React from 'react';
+import styled from 'styled-components';
 
 function Header() {
   return (
-    <div>
-      <h2>Header</h2>
-    </div>
+    <HeaderContainer>
+			<HeaderInfo>
+      	<h2>Pop Lock</h2>
+			</HeaderInfo>
+    </HeaderContainer>
   )
 }
 
-export default Header
+export default Header;
+
+const HeaderContainer = styled.div`
+	margin: none;
+	height: 100vh;
+	width: 300px;
+	background-color: purple;
+`;
+
+const HeaderInfo = styled.div`
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-size: xx-large;
+`;
