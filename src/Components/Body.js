@@ -34,7 +34,7 @@ const BodyInfo = styled.div`
 
 button:hover {
     cursor: pointer;
-    background-color: lightpink;
+    background-color: orange;
     color: white;
     border-radius: 50px;
     margin-right: 200px;

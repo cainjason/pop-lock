@@ -17,11 +17,12 @@ const HeaderContainer = styled.div`
 	margin: none;
 	height: 100vh;
 	width: 300px;
-	background-color: purple;
+	background-color: orange;
 `;
 
 const HeaderInfo = styled.div`
 	color: white;
+	margin-top: 340px;
 	display: flex;
 	justify-content: center;
 	font-size: xx-large;
